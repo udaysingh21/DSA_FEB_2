@@ -14,20 +14,20 @@ array=[1,2,3,4,5]
 # range(2,10,2)=2  4  6  8
 # range(4,14,3)=4
 
-# for i in range(4,14,3):
-#     print(i)
+for i in range(4,14,3):
+    print(i)
 
 
-# n=len(array) # 0 1 ... n-1
-# for i in range(n):
-#     print(array[i])
-#
-# name="Uday Vikram Singh"
-# print(name)
-# # length=n  indexin - 0...n-1
-# for i in range(2,len(name),2):
-#     print(name[i])
-#
+n=len(array) # 0 1 ... n-1
+for i in range(n):
+    print(array[i])
+
+name="Uday Vikram Singh"
+print(name)
+# length=n  indexin - 0...n-1
+for i in range(2,len(name),2):
+    print(name[i])
+
 
 """WHILE LOOP"""
 array1=[1,'a',2,234.45,True,"Uday",23456567.453627891234857] # in list, we can store HETEROGENEOUS Value
@@ -35,9 +35,9 @@ array1=[1,'a',2,234.45,True,"Uday",23456567.453627891234857] # in list, we can s
 # n=len(array1)
 
 i=0
-# while i!=len(array1):
-#     print(i,array1[i])
-#     i+=1
+while i!=len(array1):
+    print(i,array1[i],type(array1[i]))
+    i+=1
 
 # CONTINUE/BREAK
 

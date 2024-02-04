@@ -27,6 +27,7 @@ for pos_i in range(len(array)):
 
 arr=['uday',1,True,234,12]
 
+
 # range(start,end,update)
 """Reverse Loop"""
 # range(length-1,-1,-1)
@@ -34,8 +35,11 @@ arr=['uday',1,True,234,12]
 # for i in range(len(arr)):
 #     print(arr[i],end=' , ')
 
-# for i in range(len(arr)-1,-1,-1):
-    # print(i,arr[i])
+# for (i=n-1;i>=0;i--)
+#   print()
+
+for i in range(len(arr)-1,-1,-1):
+    print(i,arr[i])
 
 """Print directly without index"""
 for element in arr:

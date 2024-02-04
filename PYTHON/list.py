@@ -2,10 +2,10 @@
 # List - heterogeneous , multiple items store in single variable [1,a,True]
 # mutable
 
-# a=list()
+a=list()
 # print(type(a))
 #
-# b=[]
+b=[]
 
 thislist=['apple','banana','orange','apple','orange']
 # print(type(thislist))

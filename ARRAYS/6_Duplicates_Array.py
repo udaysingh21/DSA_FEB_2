@@ -11,18 +11,18 @@ def duplicate(arr):
 
 def duplicate1(arr):
     # O(n)/O(n)
-    dicti={}
+    dicti = {}
     # {arr[i]:frequency}
+
     for ele in arr:
-        if ele not in dicti: # agr pehli baar aa rha to dict me daal do
-            dicti[ele]=1
-        else: # agr doosri baar aa rha to True return kr do
+        if ele not in dicti:
+            dicti[ele] = 1  # assign element 1 as it appears first time
+            # dict[key]=value
+        else:
             # dicti[ele]+=1
             # if dicti[ele]==2:
             #     return True
             return True
-
-    return False
 
 
 

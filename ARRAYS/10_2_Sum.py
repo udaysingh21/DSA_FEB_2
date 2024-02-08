@@ -19,10 +19,11 @@ def twosum1(arr,target):
 
         if reqd in dicti:
             # if we found reqd then return their indexes
+            # return [reqd,arr[i]]
             return [dicti[reqd],i]
         else:
-            # if reqd not in dicti store ar[i] for future use
-            dicti[arr[i]]=i
+            # if reqd not in dicti store arr[i] with index as its value for future use
+            dicti[arr[i]]=i # we are storing index i
 
     return [-1,-1]
 

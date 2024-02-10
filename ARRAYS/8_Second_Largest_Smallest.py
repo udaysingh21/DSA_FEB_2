@@ -30,3 +30,21 @@ def secondlargestsmallest(arr):
 
 arr=[2,9,3,4,7]
 print(secondlargestsmallest(arr))
+
+
+def largest(arr):
+
+    f,s=0,0
+    for i in range(len(arr)):
+        if arr[i]>f:
+            s=f
+            f=arr[i]
+        else:
+            if arr[i]>=s and arr[i]!=f:
+                s=arr[i]
+
+    return [f,s]
+
+
+array=[1,1,1,1,1]
+print(largest(array))

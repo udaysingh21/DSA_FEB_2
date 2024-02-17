@@ -13,9 +13,8 @@ def subset(arr,i,temp,ans):
     temp.pop()
 
 
-if __name__=="__main__":
-    arr=[5,2,1]
-    temp=[] # it will store all possible combination (subset)
-    ans=[] # it will store sum of subsets
-    subset(arr,0,temp,ans)
-    print(ans)
+arr=[2,3]
+temp=[] # it will store all possible combination (subset)
+ans=[] # it will store sum of subsets
+subset(arr,0,temp,ans)
+print(ans)

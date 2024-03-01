@@ -24,7 +24,18 @@ q.next=r
 # Create a Circular Singly ll
 r.next=n
 
-print(n.data,n.next)
-print(p.data,p.next)
-print(q.data,q.next)
-print(r.data,r.next)
+curr=n
+print(id(curr))
+print(id(n))
+
+print(id(curr)==id(n))
+
+print(id(curr.next))
+print(id(p))
+print(id(curr.next)==id(p))
+
+
+# print(n.data,n.next)
+# print(p.data,p.next)
+# print(q.data,q.next)
+# print(r.data,r.next)

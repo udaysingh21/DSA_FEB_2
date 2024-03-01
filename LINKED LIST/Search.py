@@ -12,7 +12,7 @@ class Node:
 def searchInLinkedList(head, k):
 # Your code goes here.
     curr=head
-    while curr is not None:
+    while curr != None:
         if curr.data==k:
             return True
         else:
